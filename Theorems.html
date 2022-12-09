@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Theorems</title>
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+	<p>
+    <strong>THEOREM 1:</strong> Supposed f and g be two real functions continuous at a real no. c.Then<br/>
+    (1)f+g is continuous at x=c.<br/>
+    (2)f-g is continuous at x=c.<br/>
+    (3)f.g is continuous at x=c.<br/>
+    (4)f/g is continuous at x=c, (provided g(c) not equal to 0)<br/> 
+    <p>
+    <strong>Proof:</strong> We are investigating continuity of $(f+g)$ at $x=c$.Clearly it is defined at $x=c$.We have
+
+\begin{eqnarray*}
+   \lim_{x \rightarrow c}(f+g)(x) & = & \lim_{x \rightarrow c}[f(x)+(x)] \\
+   & = & \lim_{x \rightarrow c}f(x) + \lim_{x \rightarrow c}g(x) \\
+   & = & f(c) + g(c) \\
+   & = & (f+g)(c)
+\end{eqnarray*}
+    <p>
+  <center>  Hence, f+g is continuous at x=c</center><br/>
+   <center> Proofs for the remaining parts are similar </center>	
+
+
+   <p>
+   	<strong>THEOREM 2:</strong>Supposed f and g are real valued functions such that fog is defined at c.If g is continuous at c and if f is continuous at g(c),then (fog) is continuous at c.
+
+</body>
+</html>
